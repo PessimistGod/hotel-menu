@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styling/Navbar.css" />
+    <link rel="stylesheet" href="styling/addMenu.css" />
+  </head>
+  <body>
+    <div id="navbar-main"></div>
+    <div id="navbar-menu"></div>
+    
+    <div class="item-container">
+        <form class="form-container" id="form" onsubmit="handleSubmit(event)">
+            <label for="name">Dish Name:</label>
+            <input id="name"  name="name" type="text" placeholder="Dish Name">
+            <label for="image">Image URL:</label>
+            <input id="image" name="image" type="text" placeholder="Dish Image URL">
+            <label for="price">Price:</label>
+            <input min="0" id="price" name="price" type="number" placeholder="Total Price">
+
+            <button type="submit">Save Dish</button>
+        </form>
+    </div>
+  </body>
+  <script src="Component/Navbar.js"></script>
+  <script src="Component/MenuNavbar.js"></script>
+  <script src="javascript/addMenuItem.js"></script>
+
+
+</html>

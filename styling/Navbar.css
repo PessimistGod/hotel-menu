@@ -1,0 +1,70 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #edebe7;
+}
+.nav-container {
+  width: 100%;
+  padding: 1.5rem 0;
+  background-color: rgb(27, 28, 28);
+  color: rgb(228, 225, 225);
+  box-shadow: 8px 1px 8px rgb(54, 54, 54);
+}
+
+.nav-ul-container {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0 3rem;
+}
+
+.nav-flexContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3.5rem;
+}
+
+.nav-logo {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+.nav-links {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.nav-links:hover {
+  color: rgb(255, 73, 73);
+  cursor: pointer;
+  transform: scale(1.11);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.active {
+  color: rgb(255, 0, 0);
+  border-bottom: 2px solid red;
+  transform: scale(1.12);
+}
+
+.nav-menu-container{
+  width: 100%;
+  padding: 0.6rem;
+  background-color: rgb(247, 251, 255);
+}
+.nav-menu-ul-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  gap: 2.5rem;
+}
